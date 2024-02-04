@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+hr {width: 98%; color: #505477;}
+h3 {color: #505477;}
+p {text-align: justify;}
+body{background: #616C99 ; max-width: 630px; margin-left: auto; margin-right:auto; padding: 0;font-family: Arial;font-size: 9pt;}
+div.container {
+  display: flex;
+  flex-direction: column;
+  background: #FEDEDE ;
+  min-height: 100vh;
+}
+div.header {
+  text-align: center;
+  background: #FFC2C2;
+}
+div.navbar {
+  background: #FCDDF2;
+}
+div.navbar tr.menu {
+  text-align: center;
+  font-weight: bold;
+}
+div.navbar tr.menu a {
+  color: #505477;
+  text-decoration: none;
+}
+div.content {
+  background: #FEDEDE ;
+}
+.artikel {
+  padding: 0.5rem;
+}
+div.artikel div.box {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow: auto;
+  gap: 1rem;
+}
+div.artikel div.box img {
+  min-width: 100%;
+}
+
+
+.download-btn {
+  text-decoration: none;
+  text-align: center;
+  color: #616C99;
+}
