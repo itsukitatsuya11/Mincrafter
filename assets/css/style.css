@@ -30,6 +30,16 @@ div.navbar tr.menu a {
 div.content {
   background: #FEDEDE ;
 }
+div.content div.banner div.visitor-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+div.center-content {
+	width: 100%;
+	text-align: center;
+}
 .artikel {
   padding: 0.5rem;
 }
